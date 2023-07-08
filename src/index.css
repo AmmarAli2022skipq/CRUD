@@ -11,3 +11,51 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+input {
+  width: 300px;
+  padding: 5px 20px;
+}
+label {
+  display: block;
+  width: 50px !important;
+}
+form div:nth-child(2) input {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+table thead th,
+table tbody tr td {
+  border: 1px solid black !important;
+}
+
+table * {
+  text-align: center;
+}
+#root {
+  padding: 20px;
+}
+td {
+  padding: 10px;
+}
+button {
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  width: 60px;
+}
+
+.global-form textarea {
+  height: 120px;
+  width: 327px;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+.global-form button {
+  margin-top: 10px;
+}
